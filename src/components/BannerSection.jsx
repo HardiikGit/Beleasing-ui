@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaRightLong } from 'react-icons/fa6';
 import { IoStarSharp } from 'react-icons/io5';
 const bannerData = {

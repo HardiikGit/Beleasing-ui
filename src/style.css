@@ -1,12 +1,13 @@
 /*Section */
 .MainHeader {
-  background: var(--white);
+  background: #ffffff1c;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   width: 100%;
   z-index: 100;
+  backdrop-filter: blur(5px);
 }
 .Head-Logo,
 .Nav-fl {
@@ -15,7 +16,7 @@
 .Logo-Name h4 {
   font-size: 16px;
   font-weight: 700;
-  color: var(--text);
+  color: var(--white);
   text-transform: uppercase;
 }
 .Logo-Image {
@@ -408,4 +409,15 @@ video {
   .Images-Comp {
     width: 160px;
   }
+}
+
+.VideoSection::before {
+    content: "";
+    background: #1d23253b;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    right: 0;
 }

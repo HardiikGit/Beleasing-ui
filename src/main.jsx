@@ -5,7 +5,7 @@ import './theme.css'
 import './style.css'
 import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('beleasing')).render(
   <StrictMode>
     <App />
   </StrictMode>,
